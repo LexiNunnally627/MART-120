@@ -1,0 +1,15 @@
+﻿Write a short paper comparing the GUI (graphical user interface) and the CLI (command-line interface).
+
+
+GUI vs CLI
+
+
+There are many different types of user interfaces (UI). Two in particular are graphic user interfaces (GUI) and command-line interfaces (CLI). When looking at them outright they seem quite similar, they both are used to control commands on a screen. However, there are plenty of differences that make them more useful than the other in practice. 
+GUI’s were first developed in the 1970s (Heavy.ai). Steven Levy states that they, “enable a person to communicate with a computer through the use of symbols, visual metaphors, and pointing devices.” Today they are the standard interface for the computers we use every day, including ATMs, video games, self-checkout screens, smartphones, and desktops (Heavy.ai). Anytime we click a button on a screen, it will accomplish a task. It’s up to the user to interact with the visuals on a screen (Heavy.ai). For the general population, it’s helpful to visually interact with the display; however, it doesn’t have the same fine control as CLIs (Loshin, Peter). 
+CLIs are great for managing a large number of systems (Loshin, Peter). A CLI is a “text-based user interface used to run programs, manage computer files, and interact with the computer”(Loshin, Peter). When using them the user needs to memorize commands for the computer to complete. For example, C:\> DEL will delete a file. Once GUIs were introduced, CLIs declined in popularity because of the user-friendly nature of the ladder (Loshin, Peter). However, when someone needs to control a large portion of tasks, a CLI is preferred to effectively accomplish said task (Loshin, Peter).
+
+
+Works Cited
+Heavy.AI. “What Is a Graphical User Interface? Definition and FAQs | OmniSci.” Www.heavy.ai, 2022, www.heavy.ai/technical-glossary/graphical-user-interface.
+Levy, Steven. “Graphical User Interface | Computing.” Encyclopædia Britannica, 29 Mar. 2018, www.britannica.com/technology/graphical-user-interface.
+Loshin, Peter. “What Is a Command-Line Interface (CLI)?” SearchWindowsServer, Dec. 2021, www.techtarget.com/searchwindowsserver/definition/command-line-interface-CLI.
