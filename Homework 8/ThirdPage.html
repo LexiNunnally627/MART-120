@@ -26,12 +26,13 @@ function checkboxes()
     document.getElementById("email").style.backgroundColor = "red";
     document.getElementById("email").focus();
 }
-    var answerBox = document.getElementById("answer").value;
-    if(answerBox == "")
+    var yesButton = document.getElementById("yes").value;
+    if(document.getElementById("yes").checked)
     {
-        window.alert("please answer");
-    document.getElementById("answer").style.backgroundColor = "red";
-    document.getElementById("answer").focus();
+        window.alert("yayay");
+    }
+    else{
+        window.alert("but why?");
     }
 }
 
@@ -58,8 +59,7 @@ function checkboxes()
         <br>
         <span class="pinkColor">Would you like to recieve emails?</span>
         <br>
-        Type 'Yes' to agree:<input type="text" id="answer"><br>
-        <br>
+        <input type="radio" name="answer" value="yes" id="yes">Yes<br>
         <button class="btn btn-primary" onclick= 'checkboxes()' type="button">Submit</button>
     </form>
     <script>
