@@ -26,9 +26,16 @@ function checkboxes()
     document.getElementById("email").style.backgroundColor = "red";
     document.getElementById("email").focus();
 }
-    var questionBoxYes = document.getElementById("yes").value;
-    var questionBoxNo = document.getElementById("no").value;
+    var answerBox = document.getElementById("answer").value;
+    if(answerBox == "")
+    {
+        window.alert("please answer");
+    document.getElementById("answer").style.backgroundColor = "red";
+    document.getElementById("answer").focus();
+    }
 }
+
+
 </script>
 <head>
     <div>My Third Page</div>
@@ -51,8 +58,8 @@ function checkboxes()
         <br>
         <span class="pinkColor">Would you like to recieve emails?</span>
         <br>
-        <input type="radio" name="answer" value="yes" id="yes">Yes<br>
-        <input type="radio" name="answer" value="no" id="no">No<br>
+        Type 'Yes' to agree:<input type="text" id="answer"><br>
+        <br>
         <button class="btn btn-primary" onclick= 'checkboxes()' type="button">Submit</button>
     </form>
     <script>
