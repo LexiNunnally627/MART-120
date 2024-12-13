@@ -1,0 +1,24 @@
+div {
+    color:rgb(96, 0, 185);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.pinkColor {
+    color:slateblue;
+    font-family:monospace;
+    font-size:larger;
+    font-weight:bold;
+}
+
+#specificColor {
+    color:rgb(95, 0, 95);
+    font-family:cursive;
+    font-size:larger;
+}
+
+body{
+    background-color:rgb(255, 151, 203);
+    background-image: url(pink\ square.png);
+
+}
