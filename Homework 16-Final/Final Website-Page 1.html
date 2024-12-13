@@ -1,0 +1,92 @@
+<html>
+    <Title>
+        My Final Website
+    </Title>
+    <head>
+        <div>My Final Website</div>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            span {
+                font-family:fantasy;
+                color:hotpink;
+                font-size: 20px
+            }
+            p {
+                font-family:'Times New Roman', Times, serif;
+                color:midnightblue;
+                font-size: 15px;
+            }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script>
+    function checkboxes()
+    {
+        var eclipseKL = document.getElementById("Eclipse").value;
+    if(document.getElementById("Eclipse").checked)
+    {
+        window.alert("ooooohh my fav");
+    }
+
+    var supernovaA = document.getElementById("Supernova").value;
+    if(document.getElementById("Supernova").checked)
+    {
+        window.alert("so cool and fun");
+    }
+    var lalaSK = document.getElementById("LaLaLaLa").value;
+    if(document.getElementById("LaLaLaLa").checked)
+    {
+        window.alert("you rock");
+    }
+    var specialT = document.getElementById("Feel Special").value;
+    if(document.getElementById("Feel Special").checked)
+    {
+        window.alert("awww this song is so special");
+    }
+    var dramaA = document.getElementById("Drama").value;
+    if(document.getElementById("Drama").checked)
+    {
+        window.alert("you bring the drama");
+    }
+
+    }
+    </script>
+    </head>
+    
+    <br>
+    by Lexi Nunnally
+    <br>
+    <br>
+    
+    <body>
+        <span>Overview:</span>
+        <br>
+        <p>I've had so much fun in this class. For my final project, I've decided to recap all the fun things I've made and learned this semester.</p>
+        <br>
+        <p>Of course, I chose to focus on my favorite project, which was creating the website. It was my first time using a typed coding language. I really enjoyed how we added a different step to our sites every week. It made it less intimidating to learn.</p> 
+        <br>
+        <p>I learned how to create different types of lists-i.e:</p>
+        <br>
+        <span>My Top Songs of the Year </span>
+        <ol>
+            <li><a href="https://www.youtube.com/watch?v=_qJEoSa3Ie0" target="new">Eclipse- Kim Lip</a></li>
+            <li><a href="https://www.youtube.com/watch?v=phuiiNCxRMg" target="new">Supernova-Aespa</a></li>
+            <li><a href="https://www.youtube.com/watch?v=dBDkYofMUs4" target="new">LaLaLaLa- Stray Kids</a></li>
+            <li><a href="https://www.youtube.com/watch?v=3ymwOvzhwHs" target="new">Feel Special- Twice</a></li>
+            <li><a href="https://www.youtube.com/watch?v=D8VEhcPeSlc" target="new">Drama- Aespa</a></li>
+        </ol>
+        <br>
+        <p>If you'd like tell me which song is the best</p>
+        <br>
+        <input type="radio" name="best song" value="Eclipse" id="Eclipse">Eclipse<br>
+        <input type="radio" name="best song" value="Supernova" id="Supernova">Supernova<br>
+        <input type="radio" name="best song" value="LaLaLaLa" id="LaLaLaLa">LaLaLaLa<br>
+        <input type="radio" name="best song" value="Feel Special" id="Feel Special">Feel Special<br>
+        <input type="radio" name="best song" value="Drama" id="Drama">Drama<br>
+        <button class="btn btn-primary" type="button" onclick= 'checkboxes()'>Submit</button>
+        <br>
+        <br>
+        <div><a href="Final Website- Page 2.html">Block Coding</a></div>
+    
+    </body>
+    
+    </html>
